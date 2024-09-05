@@ -1,0 +1,94 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрування по осі X */
+}
+
+.header-content img {
+    margin-bottom: 10px; /* Відступ між зображенням та музичним плеєром */
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+aside {
+    background-color: #f8f8f8;
+    padding: 10px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Additional styles for the comments page */
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+ul#comments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#comments-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
